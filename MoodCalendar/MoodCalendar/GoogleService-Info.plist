@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>819161948822-64in522qdbfjd2d6tngq01e7h4i835s0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.819161948822-64in522qdbfjd2d6tngq01e7h4i835s0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBzdCpJnqu9K-i-93A23M3T83pm-ujv-TA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>819161948822</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Align.MoodCalendar</string>
+	<key>PROJECT_ID</key>
+	<string>moodcalendar-bb523</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moodcalendar-bb523.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:819161948822:ios:3a3d14eaf1b0250c</string>
+	<key>DATABASE_URL</key>
+	<string>https://moodcalendar-bb523.firebaseio.com</string>
+</dict>
+</plist>

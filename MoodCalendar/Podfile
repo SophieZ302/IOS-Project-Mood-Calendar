@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'MoodCalendar' do
+
+pod 'Firebase/Core'
+
+pod 'Firebase/Auth'
+
+pod 'GoogleSignIn'
+
+
+end
+
+target 'MoodCalendarTests' do
+
+end
+
+target 'MoodCalendarUITests' do
+
+end
+

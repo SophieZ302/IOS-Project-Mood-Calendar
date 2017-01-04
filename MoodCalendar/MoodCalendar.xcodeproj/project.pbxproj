@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A249ABBF3A397184A8CDF2 /* libPods-MoodCalendarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47F6768F9D650BCDCC87451 /* libPods-MoodCalendarUITests.a */; };
+		4BA8CF05BE1FFFBBD0C5E698 /* libPods-MoodCalendarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67949116007835E5D01C2D9A /* libPods-MoodCalendarTests.a */; };
+		BA3A496C1CA565E1F39EB40E /* libPods-MoodCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC27D551C37B4F9186BD8F4F /* libPods-MoodCalendar.a */; };
+		E447A17E1E1C49F300B42C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E447A17D1E1C49F300B42C3E /* main.m */; };
+		E447A1811E1C49F300B42C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E447A1801E1C49F300B42C3E /* AppDelegate.m */; };
+		E447A1871E1C49F300B42C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E447A1851E1C49F300B42C3E /* Main.storyboard */; };
+		E447A1891E1C49F300B42C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E447A1881E1C49F300B42C3E /* Assets.xcassets */; };
+		E447A18C1E1C49F300B42C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E447A18A1E1C49F300B42C3E /* LaunchScreen.storyboard */; };
+		E447A1971E1C49F300B42C3E /* MoodCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E447A1961E1C49F300B42C3E /* MoodCalendarTests.m */; };
+		E447A1A21E1C49F300B42C3E /* MoodCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E447A1A11E1C49F300B42C3E /* MoodCalendarUITests.m */; };
+		E447A1B01E1C4D7200B42C3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E447A1AF1E1C4D7200B42C3E /* GoogleService-Info.plist */; };
+		E4B4BFFC1E1C671B0088FC58 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4BFFB1E1C671B0088FC58 /* SignInViewController.m */; };
+		E4B4BFFF1E1C6C540088FC58 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4BFFE1E1C6C540088FC58 /* MainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E447A1931E1C49F300B42C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E447A1711E1C49F300B42C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E447A1781E1C49F300B42C3E;
+			remoteInfo = MoodCalendar;
+		};
+		E447A19E1E1C49F300B42C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E447A1711E1C49F300B42C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E447A1781E1C49F300B42C3E;
+			remoteInfo = MoodCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DD319B95EC6D833622BFAB /* Pods-MoodCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendar/Pods-MoodCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		4F411A915AEF96F55612D3F6 /* Pods-MoodCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendarUITests/Pods-MoodCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62437A91DD509BBD373A1E2E /* Pods-MoodCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendarTests/Pods-MoodCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67949116007835E5D01C2D9A /* libPods-MoodCalendarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodCalendarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47F6768F9D650BCDCC87451 /* libPods-MoodCalendarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodCalendarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E447A1791E1C49F300B42C3E /* MoodCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E447A17D1E1C49F300B42C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E447A17F1E1C49F300B42C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E447A1801E1C49F300B42C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E447A1861E1C49F300B42C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E447A1881E1C49F300B42C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E447A18B1E1C49F300B42C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E447A18D1E1C49F300B42C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E447A1921E1C49F300B42C3E /* MoodCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E447A1961E1C49F300B42C3E /* MoodCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodCalendarTests.m; sourceTree = "<group>"; };
+		E447A1981E1C49F300B42C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E447A19D1E1C49F300B42C3E /* MoodCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E447A1A11E1C49F300B42C3E /* MoodCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodCalendarUITests.m; sourceTree = "<group>"; };
+		E447A1A31E1C49F300B42C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E447A1AF1E1C4D7200B42C3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4AF16528B80A3767A988003 /* Pods-MoodCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendarTests/Pods-MoodCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4B4BFFA1E1C671A0088FC58 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		E4B4BFFB1E1C671B0088FC58 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		E4B4BFFD1E1C6C540088FC58 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		E4B4BFFE1E1C6C540088FC58 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		E52105DE6354E5C539A9A017 /* Pods-MoodCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendar/Pods-MoodCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A56B7BEC677B38AAA39D59 /* Pods-MoodCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodCalendarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodCalendarUITests/Pods-MoodCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC27D551C37B4F9186BD8F4F /* libPods-MoodCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E447A1761E1C49F300B42C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A496C1CA565E1F39EB40E /* libPods-MoodCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A18F1E1C49F300B42C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA8CF05BE1FFFBBD0C5E698 /* libPods-MoodCalendarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A19A1E1C49F300B42C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A249ABBF3A397184A8CDF2 /* libPods-MoodCalendarUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FCCE21C9CD13E590ABC782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E52105DE6354E5C539A9A017 /* Pods-MoodCalendar.debug.xcconfig */,
+				36DD319B95EC6D833622BFAB /* Pods-MoodCalendar.release.xcconfig */,
+				62437A91DD509BBD373A1E2E /* Pods-MoodCalendarTests.debug.xcconfig */,
+				E4AF16528B80A3767A988003 /* Pods-MoodCalendarTests.release.xcconfig */,
+				4F411A915AEF96F55612D3F6 /* Pods-MoodCalendarUITests.debug.xcconfig */,
+				E5A56B7BEC677B38AAA39D59 /* Pods-MoodCalendarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96BCF597870B40949BB042C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC27D551C37B4F9186BD8F4F /* libPods-MoodCalendar.a */,
+				67949116007835E5D01C2D9A /* libPods-MoodCalendarTests.a */,
+				C47F6768F9D650BCDCC87451 /* libPods-MoodCalendarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E447A1701E1C49F300B42C3E = {
+			isa = PBXGroup;
+			children = (
+				E447A17B1E1C49F300B42C3E /* MoodCalendar */,
+				E447A1951E1C49F300B42C3E /* MoodCalendarTests */,
+				E447A1A01E1C49F300B42C3E /* MoodCalendarUITests */,
+				E447A17A1E1C49F300B42C3E /* Products */,
+				74FCCE21C9CD13E590ABC782 /* Pods */,
+				96BCF597870B40949BB042C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E447A17A1E1C49F300B42C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E447A1791E1C49F300B42C3E /* MoodCalendar.app */,
+				E447A1921E1C49F300B42C3E /* MoodCalendarTests.xctest */,
+				E447A19D1E1C49F300B42C3E /* MoodCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E447A17B1E1C49F300B42C3E /* MoodCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E447A17F1E1C49F300B42C3E /* AppDelegate.h */,
+				E447A1801E1C49F300B42C3E /* AppDelegate.m */,
+				E4B4BFFA1E1C671A0088FC58 /* SignInViewController.h */,
+				E4B4BFFB1E1C671B0088FC58 /* SignInViewController.m */,
+				E4B4BFFD1E1C6C540088FC58 /* MainView.h */,
+				E4B4BFFE1E1C6C540088FC58 /* MainView.m */,
+				E447A1851E1C49F300B42C3E /* Main.storyboard */,
+				E447A1881E1C49F300B42C3E /* Assets.xcassets */,
+				E447A18A1E1C49F300B42C3E /* LaunchScreen.storyboard */,
+				E447A18D1E1C49F300B42C3E /* Info.plist */,
+				E447A1AF1E1C4D7200B42C3E /* GoogleService-Info.plist */,
+				E447A17C1E1C49F300B42C3E /* Supporting Files */,
+			);
+			path = MoodCalendar;
+			sourceTree = "<group>";
+		};
+		E447A17C1E1C49F300B42C3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E447A17D1E1C49F300B42C3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E447A1951E1C49F300B42C3E /* MoodCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E447A1961E1C49F300B42C3E /* MoodCalendarTests.m */,
+				E447A1981E1C49F300B42C3E /* Info.plist */,
+			);
+			path = MoodCalendarTests;
+			sourceTree = "<group>";
+		};
+		E447A1A01E1C49F300B42C3E /* MoodCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E447A1A11E1C49F300B42C3E /* MoodCalendarUITests.m */,
+				E447A1A31E1C49F300B42C3E /* Info.plist */,
+			);
+			path = MoodCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E447A1781E1C49F300B42C3E /* MoodCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E447A1A61E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendar" */;
+			buildPhases = (
+				11C442C224610B4383736F4E /* [CP] Check Pods Manifest.lock */,
+				E447A1751E1C49F300B42C3E /* Sources */,
+				E447A1761E1C49F300B42C3E /* Frameworks */,
+				E447A1771E1C49F300B42C3E /* Resources */,
+				C226D0D44A6AF4F03FBB04BD /* [CP] Embed Pods Frameworks */,
+				E740B0C9357E1400FB8516C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodCalendar;
+			productName = MoodCalendar;
+			productReference = E447A1791E1C49F300B42C3E /* MoodCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E447A1911E1C49F300B42C3E /* MoodCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E447A1A91E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendarTests" */;
+			buildPhases = (
+				59759DCD30C43BD2F5C8EA2C /* [CP] Check Pods Manifest.lock */,
+				E447A18E1E1C49F300B42C3E /* Sources */,
+				E447A18F1E1C49F300B42C3E /* Frameworks */,
+				E447A1901E1C49F300B42C3E /* Resources */,
+				3A23973D57D45D19A67D8F82 /* [CP] Embed Pods Frameworks */,
+				E6AFD47FF440FDE2D975CC70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E447A1941E1C49F300B42C3E /* PBXTargetDependency */,
+			);
+			name = MoodCalendarTests;
+			productName = MoodCalendarTests;
+			productReference = E447A1921E1C49F300B42C3E /* MoodCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E447A19C1E1C49F300B42C3E /* MoodCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E447A1AC1E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendarUITests" */;
+			buildPhases = (
+				11F1AF2641051717D9A58C4A /* [CP] Check Pods Manifest.lock */,
+				E447A1991E1C49F300B42C3E /* Sources */,
+				E447A19A1E1C49F300B42C3E /* Frameworks */,
+				E447A19B1E1C49F300B42C3E /* Resources */,
+				6F78B05DF6E0CB03E1777CB2 /* [CP] Embed Pods Frameworks */,
+				F790E6D7471C510546A6DE4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E447A19F1E1C49F300B42C3E /* PBXTargetDependency */,
+			);
+			name = MoodCalendarUITests;
+			productName = MoodCalendarUITests;
+			productReference = E447A19D1E1C49F300B42C3E /* MoodCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E447A1711E1C49F300B42C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alignd Boston";
+				TargetAttributes = {
+					E447A1781E1C49F300B42C3E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E447A1911E1C49F300B42C3E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E447A1781E1C49F300B42C3E;
+					};
+					E447A19C1E1C49F300B42C3E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E447A1781E1C49F300B42C3E;
+					};
+				};
+			};
+			buildConfigurationList = E447A1741E1C49F300B42C3E /* Build configuration list for PBXProject "MoodCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E447A1701E1C49F300B42C3E;
+			productRefGroup = E447A17A1E1C49F300B42C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E447A1781E1C49F300B42C3E /* MoodCalendar */,
+				E447A1911E1C49F300B42C3E /* MoodCalendarTests */,
+				E447A19C1E1C49F300B42C3E /* MoodCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E447A1771E1C49F300B42C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E447A18C1E1C49F300B42C3E /* LaunchScreen.storyboard in Resources */,
+				E447A1B01E1C4D7200B42C3E /* GoogleService-Info.plist in Resources */,
+				E447A1891E1C49F300B42C3E /* Assets.xcassets in Resources */,
+				E447A1871E1C49F300B42C3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A1901E1C49F300B42C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A19B1E1C49F300B42C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C442C224610B4383736F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		11F1AF2641051717D9A58C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A23973D57D45D19A67D8F82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendarTests/Pods-MoodCalendarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59759DCD30C43BD2F5C8EA2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F78B05DF6E0CB03E1777CB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendarUITests/Pods-MoodCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C226D0D44A6AF4F03FBB04BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendar/Pods-MoodCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AFD47FF440FDE2D975CC70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendarTests/Pods-MoodCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E740B0C9357E1400FB8516C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendar/Pods-MoodCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F790E6D7471C510546A6DE4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodCalendarUITests/Pods-MoodCalendarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E447A1751E1C49F300B42C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B4BFFC1E1C671B0088FC58 /* SignInViewController.m in Sources */,
+				E4B4BFFF1E1C6C540088FC58 /* MainView.m in Sources */,
+				E447A1811E1C49F300B42C3E /* AppDelegate.m in Sources */,
+				E447A17E1E1C49F300B42C3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A18E1E1C49F300B42C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E447A1971E1C49F300B42C3E /* MoodCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E447A1991E1C49F300B42C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E447A1A21E1C49F300B42C3E /* MoodCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E447A1941E1C49F300B42C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E447A1781E1C49F300B42C3E /* MoodCalendar */;
+			targetProxy = E447A1931E1C49F300B42C3E /* PBXContainerItemProxy */;
+		};
+		E447A19F1E1C49F300B42C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E447A1781E1C49F300B42C3E /* MoodCalendar */;
+			targetProxy = E447A19E1E1C49F300B42C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E447A1851E1C49F300B42C3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E447A1861E1C49F300B42C3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E447A18A1E1C49F300B42C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E447A18B1E1C49F300B42C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E447A1A41E1C49F300B42C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E447A1A51E1C49F300B42C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E447A1A71E1C49F300B42C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52105DE6354E5C539A9A017 /* Pods-MoodCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoodCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E447A1A81E1C49F300B42C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DD319B95EC6D833622BFAB /* Pods-MoodCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoodCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E447A1AA1E1C49F300B42C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62437A91DD509BBD373A1E2E /* Pods-MoodCalendarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodCalendar.app/MoodCalendar";
+			};
+			name = Debug;
+		};
+		E447A1AB1E1C49F300B42C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AF16528B80A3767A988003 /* Pods-MoodCalendarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodCalendar.app/MoodCalendar";
+			};
+			name = Release;
+		};
+		E447A1AD1E1C49F300B42C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F411A915AEF96F55612D3F6 /* Pods-MoodCalendarUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MoodCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoodCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E447A1AE1E1C49F300B42C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A56B7BEC677B38AAA39D59 /* Pods-MoodCalendarUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MoodCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Align.MoodCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoodCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E447A1741E1C49F300B42C3E /* Build configuration list for PBXProject "MoodCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E447A1A41E1C49F300B42C3E /* Debug */,
+				E447A1A51E1C49F300B42C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E447A1A61E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E447A1A71E1C49F300B42C3E /* Debug */,
+				E447A1A81E1C49F300B42C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E447A1A91E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E447A1AA1E1C49F300B42C3E /* Debug */,
+				E447A1AB1E1C49F300B42C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E447A1AC1E1C49F300B42C3E /* Build configuration list for PBXNativeTarget "MoodCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E447A1AD1E1C49F300B42C3E /* Debug */,
+				E447A1AE1E1C49F300B42C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E447A1711E1C49F300B42C3E /* Project object */;
+}
